@@ -87,3 +87,34 @@ svg {
 .navigation__avatar {
     border-radius: 50%;
 } 
+
+.suggestion {
+    display: flex;
+    position: fixed;
+    top: 56px;
+    right: 0;
+    left: 240px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 12px 12px 12px 24px;
+}
+
+.suggestion__item {
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 16px;
+    margin: 12px 12px 12px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.suggestion__item:first-child {
+    margin-left: 24px;
+}
+
+.suggestion__selected {
+    background: black;
+    color: white;
+}
