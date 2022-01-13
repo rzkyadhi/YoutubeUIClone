@@ -118,3 +118,68 @@ svg {
     background: black;
     color: white;
 }
+
+.sidebar {
+    width: 240px;
+    height: calc(100vh - 80px);
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    padding: 12px 0;
+    overflow-y: scroll;
+}
+
+.sidebar__section {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar__section__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    padding: 0 24px 0 24px;
+    height: 40px;
+}
+
+.sidebar__section__link svg {
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+}
+
+.sidebar__section__link img {
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+    border-radius: 50%;
+}
+
+.sidebar__section h3 {
+    padding: 0px 24px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgb(3, 3, 3);
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.more__from__youtube__text {
+    padding: 0px 24px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.5px;
+}
+
+.sidebar__section__link__small {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-weight: 500;
+    margin-left: 24px;
+}
